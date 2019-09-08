@@ -1,7 +1,7 @@
-# Part A. Set Up a Breadboard
+### Part A. Set Up a Breadboard
 <img src="https://i.imgur.com/FWUJlRE.jpg" width="50%" height="50%">
 
-# Part B. Manually Blink a LED
+### Part B. Manually Blink a LED
 
 ##### a. What color stripes are on a 100 Ohm resistor?
 * Red 2
@@ -13,7 +13,7 @@
 ##### b. What do you have to do to light your LED?
 Press the switch.
 
-# Part C. Blink a LED using Arduino
+### Part C. Blink a LED using Arduino
 1. Blink the on-board LED
 
 ##### a. What line(s) of code do you need to change to make the LED blink (like, at all)?
@@ -30,21 +30,21 @@ At delay(10) ie. 10ms, we are not able to perceive that the LED is blinking.
 To verify that it's still blinking, open the video app on the phone and look at the LED. It appears to be blinking because the video is capturing fewer frames per second than the eye.
 
 ##### e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.
-# 2. Blink your LED
-[Blink your way](https://youtu.be/vWUjIIknLGQ)
+### 2. Blink your LED
+[Blink your way](https://youtu.be/vWUjIIknLGQ)  
 [Code](https://github.com/sl2883/Devices-Lab1/blob/master/blinkCode.ino)
 
 ##### Make a video of your LED blinking, and add it to your lab submission.
-[Blinking LED at Pin 9](https://youtu.be/VKdhZDIDilU)
+[Blinking LED at Pin 9](https://youtu.be/VKdhZDIDilU)  
 [Code](https://github.com/sl2883/Devices-Lab1/blob/master/blinkPin9.ino)
 
-# Part D. Manually fade an LED
+### Part D. Manually fade an LED
 
 ##### a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?
 Yes. 
 
 ##### Part E. Fade an LED using Arduino
-[Blinking LED](https://youtu.be/9lRHeHOh_pM)
+[Blinking LED](https://youtu.be/9lRHeHOh_pM)  
 [Code](https://github.com/sl2883/Devices-Lab1/blob/master/fadeled.ino)
 
 ##### a. What do you have to modify to make the code control the circuit you've built on your breadboard?
@@ -54,7 +54,7 @@ Yes.
 ##### b. What is analogWrite()? How is that different than digitalWrite()?
 AnalogWrite sends the signal proportional to the value provided by the second parameter. So, 100% signal when the value is 255, while 50% signal when the value is 127. DigitalWrite, on the other hand, will always send 100% signal.
 
-# Part F. FRANKENLIGHT!!!
+### Part F. FRANKENLIGHT!!!
 
 ##### 1. Take apart your electronic device, and draw a schematic of what is inside.
 
