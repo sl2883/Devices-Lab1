@@ -32,8 +32,11 @@ To verify that it's still blinking, open the video app on the phone and look at 
 ##### e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.
 # 2. Blink your LED
 [Blink your way](https://youtu.be/vWUjIIknLGQ)
+[Code](https://github.com/sl2883/Devices-Lab1/blob/master/blinkCode.ino)
+
 ##### Make a video of your LED blinking, and add it to your lab submission.
 [Blinking LED at Pin 9](https://youtu.be/VKdhZDIDilU)
+[Code](https://github.com/sl2883/Devices-Lab1/blob/master/blinkPin9.ino)
 
 # Part D. Manually fade an LED
 
@@ -42,6 +45,8 @@ Yes.
 
 ##### Part E. Fade an LED using Arduino
 [Blinking LED](https://youtu.be/9lRHeHOh_pM)
+[Code](https://github.com/sl2883/Devices-Lab1/blob/master/fadeled.ino)
+
 ##### a. What do you have to modify to make the code control the circuit you've built on your breadboard?
 1. Change the digitalWrite to analogWrite. 
 2. Blink with different brightness levels (ranging from 1000 to 0) with a delay of 30-50ms.
@@ -54,15 +59,28 @@ AnalogWrite sends the signal proportional to the value provided by the second pa
 ##### 1. Take apart your electronic device, and draw a schematic of what is inside.
 
 ##### a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"
+The computation is happening by the microprocessor. 
+* The keyboard inputs are sent to the microprocessor. 
+* The microprocessor does the computation. 
+* The LCD display is updated by the microprocessor.
 
 ##### b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?
+No. The calculator doesn't have sensors.
 
 ##### c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?
+The device is powered by -
+* Solar cells
+* Battery (Button cell)
+
+The solar cells transform solar energy to electric energy. The system runs at 1.5V.
 
 ##### d. Is information stored in your device? Where? How?
-##### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
+Yes. There's a memory chip accompanying the microprocessor. The information is stored when the user presses M+ key.
 
-Describe what you did here.
+##### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
+By connecting one end of the external circuit to the connector and the other end to one of the keyboard relay points, the LED turns on.
+
 ##### 3. Build your light!
 
 ##### Make a video showing off your Frankenlight.
+[The prototype](https://youtu.be/syZuAmJDrmI)
