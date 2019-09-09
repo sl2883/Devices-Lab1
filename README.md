@@ -87,4 +87,4 @@ By connecting one end of the external circuit to the connector and the other end
 <img src="https://i.imgur.com/gsXGWtB.png" width="60%" height="60%">
 
 ##### Make a video showing off your Frankenlight.
-[The prototype](https://youtu.be/syZuAmJDrmI)
+[The prototype](https://youtu.be/GQIXGiXxHEo)
