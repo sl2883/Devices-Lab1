@@ -58,7 +58,7 @@ AnalogWrite sends the signal proportional to the value provided by the second pa
 
 ##### 1. Take apart your electronic device, and draw a schematic of what is inside.
 
-<img src="https://i.imgur.com/EDPZ9vv.png">
+<img src="https://i.imgur.com/EDPZ9vv.png" width="60%" height="60%">
 
 ##### a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"
 The computation is happening by the microprocessor. 
@@ -84,7 +84,7 @@ By connecting one end of the external circuit to the connector and the other end
 
 ##### 3. Build your light!
 
-<img src="https://i.imgur.com/gsXGWtB.png">
+<img src="https://i.imgur.com/gsXGWtB.png" width="60%" height="60%">
 
 ##### Make a video showing off your Frankenlight.
 [The prototype](https://youtu.be/syZuAmJDrmI)
