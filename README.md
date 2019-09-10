@@ -55,6 +55,7 @@ Yes.
 AnalogWrite sends the signal proportional to the value provided by the second parameter. So, 100% signal when the value is 255, while 50% signal when the value is 127. DigitalWrite, on the other hand, will always send 100% signal.
 
 ### Part F. FRANKENLIGHT!!!
+<img src="https://i.imgur.com/I61d5iC.jpg" width="50%" height="50%">
 
 ##### 1. Take apart your electronic device, and draw a schematic of what is inside.
 
